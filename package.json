@@ -14,6 +14,9 @@
   "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
   "type": "module",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
